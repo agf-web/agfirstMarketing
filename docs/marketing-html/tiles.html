@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Featherlight – The ultra slim jQuery lightbox.</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <style>
+        @font-face {
+            font-family: 'ProximaNovaReg';
+            src: url('fonts/ProximaNovaReg.eot');
+            src: url('fonts/ProximaNovaReg.eot?#iefix') format('embedded-opentype'),
+            url('fonts/ProximaNovaReg.svg') format('svg'),
+            url('fonts/ProximaNovaReg.ttf') format('truetype'),
+            url('fonts/ProximaNovaReg.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'NexaRustSans-Black03';
+            src: url('fonts/NexaRustSans-Black03.eot');
+            src: url('fonts/NexaRustSans-Black03.eot?#iefix') format('embedded-opentype'),
+            url('fonts/NexaRustSans-Black03.svg#NexaRustSans-Black03') format('svg'),
+            url('fonts/NexaRustSans-Black03.ttf') format('truetype'),
+            url('fonts/NexaRustSans-Black03.woff') format('woff'),
+            url('fonts/NexaRustSans-Black03.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        figure {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            overflow: hidden;
+            position: relative;
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+
+        figure > span {
+            display: none;
+            color: #fff;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 50%;
+            margin-left: -50px;
+            top: 25%;
+            margin-top: -50px;
+            cursor: pointer;
+            font-family: 'NexaRustSans-Black03';
+            font-size: 10rem;
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+
+        }
+        figure:hover > span {
+            display: block;
+        }
+
+        /* Opacity #2 */
+        .hover12 figure {
+            background: #5b8f22;
+        }
+        .hover12 figure img {
+            opacity: 1;
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+        .hover12 figure:hover img {
+            opacity: .5;
+        }
+
+
+
+    </style>
+</head>
+<body class="fl-page">
+<div class="container-fluid">
+    <div class="jumbotron">
+        <p class="text-center"><a class="btn btn-default btn-primary" href="#" data-featherlight="#fmid"
+                                  data-featherlight-variant="fixwidth" data-featherlight-open-speed="1000"
+                                  data-featherlight-close-speed="1000">Click Here to See Great Work</a></p>
+    </div>
+
+    <div class="work hover12">
+        <div class="row">
+            <div class="col-md-4">
+                <figure><img src="https://picsum.photos/300/200?image=244" />
+                    <span>+</span>
+                </figure>
+
+            </div>
+            <div class="col-md-4">
+                <figure><img src="https://picsum.photos/300/200?image=244" />
+                    <span>+</span>
+                </figure>
+            </div>
+            <div class="col-md-4">
+                <figure><img src="https://picsum.photos/300/200?image=244" />
+                    <span>+</span>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    <!--<script src="../assets/javascripts/jquery-1.7.0.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+
+
+</body>
+</html>

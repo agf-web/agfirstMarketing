@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Featherlight – The ultra slim jQuery lightbox.</title>
+		<link href="../assets/stylesheets/bootstrap.min.css" rel="stylesheet" />
+		<link type="text/css" rel="stylesheet" href="featherlight.css" />
+		<style type="text/css">
+
+		</style>
+		<style>
+			@font-face {
+				font-family: "Proxima Nova Bold";
+				src: url("fonts/Proxima Nova Bold.eot");
+				src: local("Proxima Nova Bold"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Bold.woff") format("woff"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Bold.ttf") format("truetype"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Bold.svg") format("svg");
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: "Proxima Nova Bold It";
+				src: url("fonts/Proxima Nova Bold It.eot");
+				src: local("Proxima Nova Bold It"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Bold It.svg") format("svg"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Bold It.ttf") format("truetype"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Bold It.woff") format("woff");
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: "Proxima Nova Light";
+				src: url("fonts/Proxima Nova Light.eot");
+				src: local("Proxima Nova Light"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Light.svg") format("svg"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Light.ttf") format("truetype"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Light.woff") format("woff");
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: "Proxima Nova Light It";
+				src: url("fonts/Proxima Nova Light It.eot");
+				src: local("Proxima Nova Light It"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Light It.svg") format("svg"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Light It.ttf") format("truetype"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Light It.woff") format("woff");
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: "Proxima Nova Reg";
+				src: url("fonts/Proxima Nova Reg.eot");
+				src: local("Proxima Nova Reg"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Reg.svg") format("svg"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Reg.ttf") format("truetype"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Reg.woff") format("woff");
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: "Proxima Nova Reg It";
+				src: url("fonts/Proxima Nova Reg It.eot");
+				src: local("Proxima Nova Reg It"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Reg It.svg") format("svg"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Reg It.ttf") format("truetype"),
+				url("http://localhost:63342/marketing-site/src/fonts/Proxima Nova Reg It.woff") format("woff");
+				font-weight: normal;
+				font-style: normal;
+			}
+			@media all {
+				.lightbox { display: none; }
+				.fl-page {
+					font-family:"Promima Nova Reg";
+				}
+				.fl-page h1,
+				.fl-page h2,
+				.fl-page h3,
+				.fl-page h4 {
+					font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+					font-weight: 100;
+					letter-spacing: 1px;
+				}
+
+
+				.fl-page h1 { font-size: 72px; margin-bottom: 0.5em; }
+				.fl-page h1 i { font-style: normal; color: #ddd; }
+				.fl-page h1 span { font-size: 30px; color: #333;}
+				.fl-page h3 { text-align: right; }
+				.fl-page h3 { font-size: 15px; }
+				.fl-page h4 { font-size: 2em; }
+				.fl-page .jumbotron { margin-top: 2em; }
+				.fl-page .doc { margin: 2em 0;}
+				.fl-page .btn-download { float: right; }
+				.fl-page .btn-default { vertical-align: bottom; }
+
+				.fl-page .btn-lg span { font-size: 0.7em; }
+				.fl-page .footer { margin-top: 3em; color: #aaa; font-size: 0.9em;}
+				.fl-page .footer a { color: #999; text-decoration: none; margin-right: 0.75em;}
+				.fl-page .github { margin: 2em 0; }
+				.fl-page .github a { vertical-align: top; }
+				.fl-page .marketing a { color: #999; }
+
+				/* override default feather style... */
+				.featherlight {
+					background: rgba(41, 48, 58, 1);
+					border-top: 5px solid #c75b12;
+					border-bottom: 5px solid #c75b12;
+				}
+
+				.featherlight .container {
+					max-width: 800px;
+				}
+				.featherlight .featherlight-content {
+					width: 100%;
+					height: 100%;
+					color: #fff;
+					background: rgba(41, 48, 58, 0.75);
+					margin-left: 0;
+					margin-right: 0;
+					max-height: 100%;
+					padding: 5em 1em 5em;
+				}
+				.featherlight .featherlight-close {
+					color: #fff;
+					background: #333;
+				}
+
+				.featherlight .featherlight-content p,
+				.featherlight .featherlight-content li { font-size: 20px; line-height: 1.4;}
+
+				.featherlight .featherlight-close-icon {
+					line-height: 50px;
+					width: 50px;
+					font-size: 36px;
+				}
+
+			}
+			@media(max-width: 768px){
+				.fl-page h1 span { display: block; }
+				.fl-page .btn-download { float: none; margin-bottom: 1em; }
+			}
+
+
+
+
+
+
+		</style>
+	</head>
+	<body class="fl-page">
+		<div class="container-fluid">
+			<div class="jumbotron">
+					<p class="text-center"><a class="btn btn-default" href="#" data-featherlight="#fmid" data-featherlight-variant="fixwidth" data-featherlight-open-speed="1000" data-featherlight-close-speed="1000">Click Here to See Great Work</a></p>
+			</div>
+
+			<div class="row block-grid">
+				<div class="col-md-4">
+
+				</div>
+				<div class="col-md-4">
+
+				</div>
+				<div class="col-md-4">
+
+				</div><!--end tile .row -->
+
+		</div><!--end container-->
+
+
+
+		<div class="lightbox" id="fmid">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Farm Market iD Lead-Generation Campaign</h1>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<img class="img-responsive" src="img/fmid1.png">
+					</div>
+					<div class="col-sm-6">
+						<img class="img-responsive" src="img/fmid2.png">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>Purpose</h2>
+						<p>Postcard campaign targeting farm owners and operators within the AgFirst District pulled from the Farm Market iD agricultural database.</p>
+						<p>Farmers within participating Association territories receive a series of postcards that promote loan products specifically tailored for rural living and agriculture. Calls to action encourage postcard recipients to get in touch with a loan officer or visit an Association landing page for more information.</p>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<img class="img-responsive" src="img/fmid1.png">
+					</div>
+					<div class="col-sm-6">
+						<img class="img-responsive" src="img/fmid2.png">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h2>Goals:</h2>
+						<ul>
+							<li><strong>Develop a District-wide lead-generation platform</strong> by building a digital channel that serves as a centralized content repository.</li>
+							<li><strong>Drive consumer awareness and leads</strong> through targeted conversations rather than through cold calls.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../assets/javascripts/jquery-1.7.0.min.js"></script>
+		<script src="featherlight.js" type="text/javascript" charset="utf-8"></script>
+
+
+	</body>
+</html>

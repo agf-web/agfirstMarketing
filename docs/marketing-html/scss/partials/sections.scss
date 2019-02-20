@@ -1,0 +1,52 @@
+.section {
+  padding: 5em 0;
+}
+
+.pageHero {
+  background-image: url(https://via.placeholder.com/1600x900);
+  background-size: cover;
+  background-position: top center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  min-height: 50vh;
+  text-align: center;
+  h1 {
+    color: #fff;
+    font-size: calc(28px + 4vw);
+  }
+}
+@media (min-width:1200px) {
+  .pageHero {
+    min-height: 75vh;
+  }
+}
+
+
+.pageLead {
+  width: 100%;
+  background: url('../img/rectBgOrange.svg') bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  margin-top: -15vh;
+  min-height: 400px;
+  text-align: center;
+  .container {
+    max-width: 800px;
+  }
+  p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #fff;
+  }
+}
+
+@media (min-width:1200px) {
+  .pageLead {
+    min-height: 500px;
+    p {
+      font-size: 1.75rem;
+    }
+  }
+}

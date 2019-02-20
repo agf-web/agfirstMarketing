@@ -1,0 +1,230 @@
+/**
+ * Featherlight – ultra slim jQuery lightbox
+ * Version 1.7.13 - http://noelboss.github.io/featherlight/
+ *
+ * Copyright 2018, Noël Raoul Bossart (http://www.noelboss.com)
+ * MIT Licensed.
+**/
+
+html.with-featherlight {
+  /* disable global scrolling when featherlights are visible */
+  overflow: hidden;
+}
+
+.featherlight {
+  display: none;
+
+  /* dimensions: spanning the background from edge to edge */
+  position:fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: 2147483647; /* z-index needs to be >= elements on the site. */
+
+  /* position: centering content */
+  text-align: center;
+
+  /* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+  white-space: nowrap;
+
+  /* styling */
+  cursor: pointer;
+  background: #333;
+  /* IE8 "hack" for nested featherlights */
+  background: rgba(0, 0, 0, 0);
+}
+
+/* support for nested featherlights. Does not work in IE8 (use JS to fix) */
+.featherlight:last-of-type {
+  /* background: rgba(0, 0, 0, 0.8); */
+}
+
+.featherlight:before {
+  /* position: trick to center content vertically */
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.featherlight .featherlight-content {
+  /* make content container for positioned elements (close button) */
+  position: relative;
+
+  /* position: centering vertical and horizontal */
+  text-align: left;
+  vertical-align: middle;
+  display: inline-block;
+
+  /* dimensions: cut off images */
+  overflow: auto;
+  padding: 25px 25px 0;
+  border-bottom: 25px solid transparent;
+
+  /* dimensions: handling large content */
+  margin-left: 5%;
+  margin-right: 5%;
+  max-height: 95%;
+
+  /* styling */
+  background: #fff;
+  cursor: auto;
+
+  /* reset white-space wrapping */
+  white-space: normal;
+}
+
+/* contains the content */
+.featherlight .featherlight-inner {
+  /* make sure its visible */
+  display: block;
+}
+
+/* don't show these though */
+.featherlight script.featherlight-inner,
+.featherlight link.featherlight-inner,
+.featherlight style.featherlight-inner {
+  display: none;
+}
+
+.featherlight .featherlight-close-icon {
+  /* position: centering vertical and horizontal */
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+
+  /* dimensions: 25px x 25px */
+  line-height: 25px;
+  width: 25px;
+
+  /* styling */
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #fff; /* Set the background in case it overlaps the content */
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+  border: none;
+  padding: 0;
+}
+
+/* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */
+.featherlight .featherlight-close-icon::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.featherlight .featherlight-image {
+  /* styling */
+  width: 100%;
+}
+
+
+.featherlight-iframe .featherlight-content {
+  /* removed the border for image croping since iframe is edge to edge */
+  border-bottom: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.featherlight iframe {
+  /* styling */
+  border: none;
+}
+
+.featherlight * { /* See https://github.com/noelboss/featherlight/issues/42 */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* handling phones and small screens */
+@media only screen and (max-width: 1024px) {
+  .featherlight .featherlight-content {
+    /* dimensions: maximize lightbox with for small screens */
+    margin-left: 0;
+    margin-right: 0;
+    max-height: 98%;
+
+    padding: 10px 10px 0;
+    border-bottom: 10px solid transparent;
+  }
+}
+
+/* hide non featherlight items when printing */
+@media print {
+  html.with-featherlight > * > :not(.featherlight) {
+    display: none;
+  }
+}
+
+
+/* Overrides */
+
+
+.lightbox { display: none; }
+.fl-page {
+  font-family: 'ProximaNovaReg';
+}
+.fl-page h1,
+.fl-page h2,
+.fl-page h3,
+.fl-page h4 {
+  font-family: 'NexaRustSans-Black03', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.fl-page h1 { font-size: 56px; margin-bottom: 0.5em; }
+.fl-page h1 i { font-style: normal; color: #ddd; }
+.fl-page h1 span { font-size: 30px; color: #333; }
+.fl-page h3 { text-align: right; }
+.fl-page h3 { font-size: 15px; }
+.fl-page h4 { font-size: 2em; }
+.fl-page .jumbotron { margin-top: 2em; }
+.fl-page .doc { margin: 2em 0; }
+.fl-page .btn-download { float: right; }
+.fl-page .btn-default { vertical-align: bottom; }
+.fl-page .btn-lg span { font-size: 0.7em; }
+.fl-page .footer { margin-top: 3em; color: #aaa; font-size: 0.9em; }
+.fl-page .footer a { color: #999; text-decoration: none; margin-right: 0.75em; }
+.fl-page .github { margin: 2em 0; }
+.fl-page .github a { vertical-align: top; }
+.fl-page .marketing a { color: #999; }
+/* override default feather style... */
+.featherlight {
+  background: rgba(41, 48, 58, 1);
+  border-top: 5px solid #c75b12;
+  border-bottom: 5px solid #c75b12;
+}
+.featherlight .container {
+  max-width: 800px;
+}
+.featherlight .featherlight-content {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: rgba(41, 48, 58, 0.75);
+  margin-left: 0;
+  margin-right: 0;
+  max-height: 100%;
+  padding: 5em 1em 5em;
+}
+.featherlight .featherlight-content img {
+  margin: 1em auto;
+}
+.featherlight .featherlight-close {
+  color: #fff;
+  background: #333;
+}
+.featherlight .featherlight-content p,
+.featherlight .featherlight-content li { font-size: 20px; line-height: 1.4; }
+.featherlight .featherlight-close-icon {
+  line-height: 50px;
+  width: 50px;
+  font-size: 36px;
+}
+
+@media (max-width: 768px) {
+  .fl-page h1 { font-size: 36px }
+  .fl-page h1 span { display: block; }
+  .fl-page .btn-download { float: none; margin-bottom: 1em; }
+}

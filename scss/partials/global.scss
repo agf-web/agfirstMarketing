@@ -1,0 +1,22 @@
+.navbar {
+  font-size: 1rem;
+  padding: 1.5rem 1rem;
+
+  .btn {
+    font-size: 1rem;
+  }
+  .navbar-brand {
+    svg {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  }
+  .navbar-nav {
+    .nav-link {
+      color: rgba(255,255,255,0.98);
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+}
