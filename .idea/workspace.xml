@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083b98a5-54f7-4453-bbb7-8f4309e42534" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/agfirstmarketing.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -279,12 +275,20 @@
       <updated>1549641620942</updated>
       <workItem from="1549641622203" duration="1784000" />
       <workItem from="1549648965556" duration="9538000" />
-      <workItem from="1550683651545" duration="3793000" />
+      <workItem from="1550683651545" duration="3828000" />
     </task>
+    <task id="LOCAL-00001" summary="Remove .idea">
+      <created>1550688360815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550688360815</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15115000" />
+    <option name="totallyTimeSpent" value="15150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="114" y="103" width="1948" height="1268" extended-state="0" />
@@ -315,6 +319,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
