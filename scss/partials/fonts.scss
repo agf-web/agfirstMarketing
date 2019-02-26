@@ -19,6 +19,16 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNovaBold.eot');
+  src: url('../fonts/ProximaNovaBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNovaBold.svg') format('svg'),
+  url('../fonts/ProximaNovaBold.ttf') format('truetype'),
+  url('../fonts/ProximaNovaBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'NexaRustSans-Black03';
   src: url('../fonts/NexaRustSans-Black03.eot');
   src: url('../fonts/NexaRustSans-Black03.eot?#iefix') format('embedded-opentype'),

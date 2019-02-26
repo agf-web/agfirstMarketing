@@ -62,7 +62,7 @@ gulp.task("compile-sass", function() {
     .pipe(postcss(processors))
     //.pipe(sourcemaps.write())
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest("./dist/css/"));
+    .pipe(gulp.dest("./assets/css/"));
 });
 
 gulp.task("compile-html", function() {
@@ -86,16 +86,16 @@ gulp.task("compile-html:reset", function(done) {
   done();
 });
 
-// Copy assets
-gulp.task("copy", function() {
-    gulp.src(["assets/**/*"]).pipe(gulp.dest("dist"));
-});
-
 gulp.task('scripts', function() {
     return gulp.src(['assets/js/**/*.js'])
         .pipe(concat('app.js'))
         .pipe(minify())
-        .pipe(gulp.dest('./dist/js'));
+        .pipe(gulp.dest('./assets/js'));
+});
+
+// Copy assets
+gulp.task("copy", function() {
+  gulp.src(["assets/**/*"]).pipe(gulp.dest("dist"));
 });
 
 
@@ -103,7 +103,7 @@ gulp.task("build", [
   "clean",
   "compile-sass",
   "compile-html",
-  "copy",
-  "scripts"
+  "scripts",
+  "copy"
 ]);
 gulp.task("default", ["server", "watch"]);
