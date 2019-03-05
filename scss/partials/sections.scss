@@ -6,7 +6,7 @@
 
   p {
     color: #5b8f22;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: ProximaNovaReg;
     line-height: 1.1;
     text-align: left;
@@ -103,6 +103,10 @@
   padding-bottom: 5rem;
 
   .media {
+    .media-body {
+      font-size: 1rem;
+    }
+
     img {
       max-height: 8rem;
     }
@@ -173,4 +177,12 @@
     }
 
   }
+}
+
+
+.results {
+  background-color: #253238;
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
