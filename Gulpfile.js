@@ -86,12 +86,12 @@ gulp.task("compile-html:reset", function(done) {
   done();
 });
 
-gulp.task('scripts', function() {
-    return gulp.src(['assets/js/**/*.js'])
-        .pipe(concat('app.js'))
-        .pipe(minify())
-        .pipe(gulp.dest('./assets/js'));
-});
+//gulp.task('scripts', function() {
+//    return gulp.src(['assets/js/**/*.js'])
+//        .pipe(concat('app.js'))
+//        .pipe(minify())
+ //       .pipe(gulp.dest('./assets/js'));
+//});
 
 // Copy assets
 gulp.task("copy", function() {
@@ -103,7 +103,7 @@ gulp.task("build", [
   "clean",
   "compile-sass",
   "compile-html",
-  "scripts",
+  //"scripts",
   "copy"
 ]);
 gulp.task("default", ["server", "watch"]);

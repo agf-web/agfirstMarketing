@@ -41,7 +41,6 @@
 }
 
 .pageHero {
-  background-image: url('../img/hero-home.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,6 +60,22 @@
     font-size: 2rem;
     text-transform: uppercase;
   }
+
+  &--home {
+    background-image: url('../img/hero-home.jpg');
+  }
+  &--work {
+    background-image: url('../img/hero-work.jpg');
+  }
+  &--results {
+    background-image: url('../img/hero-results-hl.jpg');
+  }
+  &--about {
+    background-image: url('../img/hero-about.jpg');
+  }
+  &--resources {
+    background-image: url('../img/hero-resources.jpg');
+  }
 }
 @media (min-width:1200px) {
   .pageHero {
@@ -70,6 +85,7 @@
 
 
 .pageLead {
+  color: #fff;
   width: 100%;
   background: url('../img/rectBgOrange.svg') bottom center;
   background-size: cover;
@@ -82,7 +98,7 @@
   .container {
     max-width: 800px;
   }
-  p {
+  p,small,a {
     font-size: 1.4rem;
     line-height: 1.5;
     color: #fff;
@@ -141,6 +157,7 @@
     .portfolio-box {
       position: relative;
       display: block;
+      margin: 3px;
 
       .portfolio-box-caption {
         display: flex;
@@ -185,4 +202,23 @@
   color: #fff;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  h3 {
+    color: #5b8f22;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.footer {
+  background-color: #253238;
+  color: #fff;
 }
