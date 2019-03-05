@@ -20,22 +20,24 @@
     margin-right: 3rem;
   }
 
-  &-section-header-dark {
-    color: #fff;
-
-    p {
-      color: #fff;
-    }
-
-    span {
-      color: #5b8f22;
-    }
-  }
-
   @include media-breakpoint-down(sm) {
     display: block;
     p {
       text-align: center;
+    }
+  }
+}
+
+.section-dark {
+  background-color: #253238;
+  color: #fff;
+
+  .section-header {
+    p {
+      color: #fff;
+    }
+    span {
+      color: #5b8f22;
     }
   }
 }
@@ -196,12 +198,20 @@
   }
 }
 
-
 .results {
-  background-color: #253238;
-  color: #fff;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  position: relative;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 5rem;
+  }
+
+  img {
+    @include media-breakpoint-up(md) {
+      position: absolute;
+    }
+  }
 }
 
 .cta {
@@ -217,6 +227,34 @@
     margin-bottom: 1rem;
   }
 }
+
+/* Results Page */
+.metrics {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .metrics-block {
+    padding: 2rem;
+
+    h4 {
+      @include media-breakpoint-up(md) {
+        font-size: 3rem;
+      }
+    }
+
+    img {
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+
+/* About Page */
+
+
+
+/* Resources Page */
+
 
 .footer {
   background-color: #253238;

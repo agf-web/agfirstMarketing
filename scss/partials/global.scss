@@ -1,3 +1,10 @@
+strong,
+b {
+  font-family: ProximaNovaBold;
+}
+
+
+
 .navbar {
   font-family: ProximaNovaReg;
   font-size: 1rem;
@@ -26,12 +33,18 @@
 }
 
 .btn {
-  font-family: ProximaNovaBold;
-  color: #fff;
-  background-image: linear-gradient(-117deg, #C75B12 0%, #FF8200 100%);
-  border: none;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 1rem 2rem;
-}
+   font-family: ProximaNovaBold;
+   color: #fff;
+   background-image: linear-gradient(-117deg, #C75B12 0%, #FF8200 100%);
+   border: none;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   padding: 1rem 2rem;
+   transition: all 0.25s ease;
+ }
 
+.btn:hover {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  color: #fff;
+}
