@@ -2,52 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083b98a5-54f7-4453-bbb7-8f4309e42534" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/creative/hl1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/creative/hl2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/creative/hl3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/ACH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/AGC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/AGF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/AGG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/AGS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/ARB.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/CAR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/CFE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/CFL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/CKY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/COL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/ECA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/FCF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/FCV.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/FSO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/MAT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/NWF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/PUR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/RVA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/SWG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/logos/YAN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/metrics/metric9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/quote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/rectBgGrey.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/featherlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/lazyload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/pages/example/index.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/work/process.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-about.html" afterPath="$PROJECT_DIR$/html/includes/content-about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-home.html" afterPath="$PROJECT_DIR$/html/includes/content-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-resources.html" afterPath="$PROJECT_DIR$/html/includes/content-resources.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-results.html" afterPath="$PROJECT_DIR$/html/includes/content-results.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-work.html" afterPath="$PROJECT_DIR$/html/includes/content-work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/footerjavascripts.html" afterPath="$PROJECT_DIR$/html/includes/footerjavascripts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/sections.scss" afterPath="$PROJECT_DIR$/scss/partials/sections.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,30 +48,31 @@
       <file leaf-file-name="content-results.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/includes/content-results.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="83" lean-forward="false" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+            <state relative-caret-position="278">
+              <caret line="36" column="53" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="85" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sections.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sections.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/partials/sections.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="823">
-              <caret line="336" column="30" lean-forward="false" selection-start-line="336" selection-start-column="30" selection-end-line="336" selection-end-column="30" />
+            <state relative-caret-position="245">
+              <caret line="248" column="15" lean-forward="true" selection-start-line="248" selection-start-column="15" selection-end-line="248" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-work.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-work.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/includes/content-work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="494">
+              <caret line="141" column="53" lean-forward="false" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#section#2;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#section#2;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -181,8 +140,8 @@
       <find>data-src</find>
       <find>col-md-2</find>
       <find>-block</find>
-      <find>data-src=</find>
       <find>logo-block</find>
+      <find>data-src=</find>
     </findStrings>
     <replaceStrings>
       <replace>NovaLight</replace>
@@ -194,8 +153,8 @@
       <replace>height=&quot;100&quot;</replace>
       <replace>logo-block</replace>
       <replace>-item</replace>
-      <replace>src=</replace>
       <replace>logo-item</replace>
+      <replace>src=</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -229,8 +188,8 @@
         <option value="$PROJECT_DIR$/html/includes/content-results.html" />
         <option value="$PROJECT_DIR$/html/includes/content-about.html" />
         <option value="$PROJECT_DIR$/html/includes/content-resources.html" />
-        <option value="$PROJECT_DIR$/scss/partials/sections.scss" />
         <option value="$PROJECT_DIR$/html/includes/content-work.html" />
+        <option value="$PROJECT_DIR$/scss/partials/sections.scss" />
       </list>
     </option>
   </component>
@@ -305,8 +264,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="283" />
-    <option name="y" value="80" />
+    <option name="x" value="152" />
+    <option name="y" value="58" />
     <option name="width" value="1948" />
     <option name="height" value="1268" />
   </component>
@@ -338,6 +297,19 @@
               <item name="agfirstmarketing" type="b2602c69:ProjectViewProjectNode" />
               <item name="agfirstmarketing" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="agfirstmarketing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agfirstmarketing" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="agfirstmarketing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agfirstmarketing" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="work" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="agfirstmarketing" type="b2602c69:ProjectViewProjectNode" />
@@ -508,7 +480,7 @@
       <workItem from="1551792678085" duration="1704000" />
       <workItem from="1551796718766" duration="4104000" />
       <workItem from="1551801433603" duration="8860000" />
-      <workItem from="1551884278249" duration="9306000" />
+      <workItem from="1551884278249" duration="10762000" />
     </task>
     <task id="LOCAL-00001" summary="Remove .idea">
       <created>1550688360815</created>
@@ -559,14 +531,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551817464244</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Wednesdays changes">
+      <created>1551899589807</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551899589807</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47861000" />
+    <option name="totallyTimeSpent" value="49317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="283" y="80" width="1948" height="1268" extended-state="0" />
+    <frame x="152" y="58" width="1948" height="1268" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.50839454" order="7" side_tool="true" content_ui="tabs" />
@@ -627,7 +606,8 @@
     <MESSAGE value="Remove .idea" />
     <MESSAGE value="Many updates" />
     <MESSAGE value="Animation, refactoring and other things." />
-    <option name="LAST_COMMIT_MESSAGE" value="Animation, refactoring and other things." />
+    <MESSAGE value="Wednesdays changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wednesdays changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -876,14 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/partials/global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -916,27 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/includes/content-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/includes/content-results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="83" lean-forward="false" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/includes/content-resources.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -953,21 +904,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/sections.scss">
+    <entry file="file://$PROJECT_DIR$/html/includes/content-results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="336" column="30" lean-forward="false" selection-start-line="336" selection-start-column="30" selection-end-line="336" selection-end-column="30" />
+        <state relative-caret-position="278">
+          <caret line="36" column="53" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="85" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/includes/content-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#3;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/includes/content-work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="494">
+          <caret line="141" column="53" lean-forward="false" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
           <folding>
             <element signature="n#div#0;n#div#1;n#section#2;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#section#2;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partials/sections.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="248" column="15" lean-forward="true" selection-start-line="248" selection-start-column="15" selection-end-line="248" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>

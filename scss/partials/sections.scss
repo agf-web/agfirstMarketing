@@ -246,6 +246,27 @@
   }
 }
 
+/* Work Page */
+.process {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .process-graphic {
+    color: #fff;
+    width: 100%;
+    background: url('../img/work/process.svg') top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vw;
+
+    @include media-breakpoint-up(lg) {
+      background-size: contain;
+      min-height: 65vw;
+    }
+  }
+
+}
+
 /* Results Page */
 .metrics {
   padding-top: 5rem;
