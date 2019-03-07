@@ -163,6 +163,12 @@
 .work {
   padding-top: 5rem;
   padding-bottom: 3rem;
+
+  &--page {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .container-fluid {
     .portfolio-box {
       position: relative;
@@ -296,17 +302,29 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
 
+  img {
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-down(sm) {
+      max-width: 200px;
+    }
+  }
+
   .testimonial {
     .author {
       text-align: right;
       text-transform: uppercase;
+      @include media-breakpoint-down(md) {
+        text-align: center;
+      }
 
       span{
         display: block;
+      }
 
-        .organization {
-          text-color: #c1d59f;
-        }
+      .organization {
+        color: #c1d59f;
+        font-size: 1rem;
       }
     }
   }
