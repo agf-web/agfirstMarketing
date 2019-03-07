@@ -1,19 +1,19 @@
 strong,
 b {
-  font-family: ProximaNovaBold;
+  font-family: ProximaNovaBold, sans-serif;
 }
 
 
 
 .navbar {
-  font-family: ProximaNovaReg;
+  font-family: ProximaNovaReg, sans-serif;
   font-size: 1rem;
   padding: 1.5rem 1rem;
 
   .navbar-brand {
     svg {
       width: 100%;
-      max-width: 300px;
+      max-width: 350px;
       height: auto;
       @include media-breakpoint-down(sm) {
         max-width: 225px;
@@ -23,7 +23,12 @@ b {
   .navbar-nav {
     .nav-link {
       color: rgba(255,255,255,0.98);
-      padding: 1rem;
+      padding: 1rem 1.5rem;
+    }
+
+    .nav-sep {
+      font-family: ProximaNovaBold, sans-serif;
+      color: #ef7707;
     }
 
     .btn {
@@ -33,7 +38,7 @@ b {
 }
 
 .btn {
-   font-family: ProximaNovaBold;
+   font-family: ProximaNovaBold, sans-serif;
    color: #fff;
    background-image: linear-gradient(-117deg, #C75B12 0%, #FF8200 100%);
    border: none;
@@ -47,4 +52,18 @@ b {
 .btn:hover {
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
   color: #fff;
+}
+
+.footer {
+  .footer-contact {
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    a {
+      color: #c1d59f;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
