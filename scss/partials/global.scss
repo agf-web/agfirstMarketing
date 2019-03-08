@@ -29,6 +29,9 @@ b {
     .nav-sep {
       font-family: ProximaNovaBold, sans-serif;
       color: #ef7707;
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
     }
 
     .btn {
