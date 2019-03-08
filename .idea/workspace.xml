@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083b98a5-54f7-4453-bbb7-8f4309e42534" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/work/homeland/download.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/work/homeland/landing.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-about.html" afterPath="$PROJECT_DIR$/html/includes/content-about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-home.html" afterPath="$PROJECT_DIR$/html/includes/content-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-resources.html" afterPath="$PROJECT_DIR$/html/includes/content-resources.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-results.html" afterPath="$PROJECT_DIR$/html/includes/content-results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/includes/content-work.html" afterPath="$PROJECT_DIR$/html/includes/content-work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/global.scss" afterPath="$PROJECT_DIR$/scss/partials/global.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -509,7 +496,7 @@
       <workItem from="1551796718766" duration="4104000" />
       <workItem from="1551801433603" duration="8860000" />
       <workItem from="1551884278249" duration="18233000" />
-      <workItem from="1552048411875" duration="11638000" />
+      <workItem from="1552048411875" duration="11643000" />
     </task>
     <task id="LOCAL-00001" summary="Remove .idea">
       <created>1550688360815</created>
@@ -595,11 +582,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552061496935</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Major work to the work page.">
+      <created>1552072285541</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552072285541</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68426000" />
+    <option name="totallyTimeSpent" value="68431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="284" y="46" width="1948" height="1268" extended-state="0" />
