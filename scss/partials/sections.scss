@@ -167,6 +167,16 @@
   color: #fff;
   padding-top: 5rem;
   padding-bottom: 5rem;
+
+  img {
+    margin-bottom: 2rem;
+  }
+
+  .quote {
+    @include media-breakpoint-down(sm) {
+      max-width: 200px;
+    }
+  }
 }
 
 .work {
@@ -307,7 +317,7 @@
   padding-bottom: 5rem;
 }
 
-.results-testimonial {
+.testimonials {
   padding-top: 5rem;
   padding-bottom: 5rem;
 
@@ -318,23 +328,23 @@
       max-width: 200px;
     }
   }
+}
 
-  .testimonial {
-    .author {
-      text-align: right;
-      text-transform: uppercase;
-      @include media-breakpoint-down(md) {
-        text-align: center;
-      }
+.testimonial {
+  .author {
+    text-align: right;
+    text-transform: uppercase;
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
 
-      span{
-        display: block;
-      }
+    span{
+      display: block;
+    }
 
-      .organization {
-        color: #c1d59f;
-        font-size: 1rem;
-      }
+    .organization {
+      color: #c1d59f;
+      font-size: 1rem;
     }
   }
 }
