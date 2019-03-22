@@ -1,13 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="083b98a5-54f7-4453-bbb7-8f4309e42534" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/html/includes/content-splash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/includes/footer-splash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/includes/header-splash.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/pages/splash.html" afterDir="false" />
+    <list default="true" id="083b98a5-54f7-4453-bbb7-8f4309e42534" name="Default" comment="Adding splash page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/includes/content-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/includes/content-home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/creative/hl1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/creative/hl1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/creative/hl2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/creative/hl2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/creative/hl2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/creative/hl2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/creative/hl3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/creative/hl3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero-about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero-about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero-home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero-home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero-resources.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero-resources.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero-results-hl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero-results-hl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero-work.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hero-work.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/mockup.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/mockup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/quote.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/quote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/aca1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/resources/aca1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/aca2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/resources/aca2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/aca3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/resources/aca3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/aca4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/resources/aca4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/campaign1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/resources/campaign1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/campaign2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/resources/campaign2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/campaign3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/resources/campaign3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/content.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/content.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/digital.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/digital.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/print.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/print.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/research.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/research.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/strategy.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/strategy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/services/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/services/web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/spotlight.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/spotlight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fce/display1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fce/display1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fce/display2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fce/display2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fce/display3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fce/display3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fce/display4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fce/display4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fce/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fce/download.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fce/landing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fce/landing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fmid/fmidLanding1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fmid/fmidLanding1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fmid/fmidLanding2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fmid/fmidLanding2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard1back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard1back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard2back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/fmid/fmidPostcard2back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/homeland/display1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/homeland/display2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/homeland/display3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/homeland/display4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/homeland/display4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/homeland/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/homeland/download.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/homeland/landing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/homeland/landing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/action1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/action1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/action2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/action2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/action3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/action3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/action4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/action4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/offshelf/nothinglike4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/operating/ad1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/operating/ad1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/operating/ad2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/operating/ad2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/operating/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/operating/download.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/operating/email.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/operating/email.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/operating/flyer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/operating/flyer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/operating/landing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/operating/landing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/work1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/work1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/work2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/work2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/work3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/work3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/work4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/work4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/work5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/work5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/work/work6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/work/work6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/includes/content-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/includes/content-results.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/includes/header-splash.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/includes/content-results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="70" column="80" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -183,7 +251,6 @@
         <option value="$PROJECT_DIR$/html/includes/footerjavascripts.html" />
         <option value="$PROJECT_DIR$/scss/partials/global.scss" />
         <option value="$PROJECT_DIR$/html/includes/content-about.html" />
-        <option value="$PROJECT_DIR$/html/includes/content-results.html" />
         <option value="$PROJECT_DIR$/html/includes/content-work.html" />
         <option value="$PROJECT_DIR$/html/includes/content-resources.html" />
         <option value="$PROJECT_DIR$/scss/partials/sections.scss" />
@@ -193,6 +260,7 @@
         <option value="$PROJECT_DIR$/html/includes/footer-splash.html" />
         <option value="$PROJECT_DIR$/html/includes/content-splash.html" />
         <option value="$PROJECT_DIR$/html/includes/header-splash.html" />
+        <option value="$PROJECT_DIR$/html/includes/content-results.html" />
       </list>
     </option>
   </component>
@@ -207,8 +275,8 @@
     <dismissed value="$PROJECT_DIR$/docs/junk/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="517" />
-    <option name="y" value="172" />
+    <option name="x" value="320" />
+    <option name="y" value="63" />
     <option name="width" value="1589" />
     <option name="height" value="1268" />
   </component>
@@ -218,7 +286,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,6 +314,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +461,8 @@
       <workItem from="1552500517820" duration="746000" />
       <workItem from="1553014174302" duration="1806000" />
       <workItem from="1553023567418" duration="9000" />
-      <workItem from="1553023593818" duration="2777000" />
+      <workItem from="1553023593818" duration="3008000" />
+      <workItem from="1553256262684" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="Remove .idea">
       <created>1550688360815</created>
@@ -542,11 +611,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553022360713</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Adding splash page">
+      <created>1553193808068</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1553193808068</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81374000" />
+    <option name="totallyTimeSpent" value="82861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,15 +634,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="517" y="172" width="1589" height="1268" extended-state="0" />
+    <frame x="222" y="33" width="1589" height="1268" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6946565" visible="true" weight="0.24692954" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6946565" visible="true" weight="0.25016162" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.3053435" side_tool="true" weight="0.18625394" />
       <window_info id="npm" order="3" sideWeight="0.54198474" side_tool="true" weight="0.18625394" />
       <window_info id="Favorites" order="4" sideWeight="0.54129606" side_tool="true" weight="0.18625394" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3282313" />
@@ -578,6 +653,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49160546" weight="0.32908162" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50839454" side_tool="true" weight="0.32992327" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -663,14 +739,15 @@
     <MESSAGE value="adding Jenny K's testimonial" />
     <MESSAGE value="adding Jenny G's changes." />
     <MESSAGE value="Updated process graphic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated process graphic" />
+    <MESSAGE value="Adding splash page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding splash page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/pages/404.html" />
     <entry file="file://$PROJECT_DIR$/dist/css/styles.css.map" />
     <entry file="file://$PROJECT_DIR$/assets/css/styles.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/styles.css" />
     <entry file="file://$PROJECT_DIR$/scss/styles.scss">
@@ -822,10 +899,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/includes/content-results.html">
+    <entry file="file://$PROJECT_DIR$/html/includes/content-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/splash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/includes/content-splash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/includes/footer-splash.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -861,46 +967,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/includes/content-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#hr#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#h4#0;n#div#0;n#div#2;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/includes/footer-splash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/splash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/includes/content-splash.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/includes/header-splash.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/includes/content-results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="70" column="80" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
         </state>
       </provider>
     </entry>
